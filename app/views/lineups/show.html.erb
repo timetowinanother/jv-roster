@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Player:</strong>
+  <%= @lineup.player %>
+</p>
+
+<p>
+  <strong>Game:</strong>
+  <%= @lineup.game %>
+</p>
+
+<p>
+  <strong>Position:</strong>
+  <%= @lineup.position %>
+</p>
+
+<p>
+  <strong>Quarter:</strong>
+  <%= @lineup.quarter %>
+</p>
+
+<p>
+  <strong>Locked:</strong>
+  <%= @lineup.locked %>
+</p>
+
+<%= link_to 'Edit', edit_lineup_path(@lineup) %> |
+<%= link_to 'Back', lineups_path %>
