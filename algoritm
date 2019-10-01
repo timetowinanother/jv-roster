@@ -1,0 +1,7 @@
+Select * into temp_gamedaylist from playerlist 
+where position != absent 
+Order by TimesGoalie ASC, PlayerName DESC
+
+telnet 
+
+
