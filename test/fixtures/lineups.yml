@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  player: one
+  game: one
+  position: one
+  quarter: 1
+  locked: false
+
+two:
+  player: two
+  game: two
+  position: two
+  quarter: 1
+  locked: false
